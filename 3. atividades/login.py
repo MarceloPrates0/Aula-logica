@@ -5,8 +5,8 @@ login= input("Insira seu login: ")
 
 senha= input("\nInsira sua senha: ")
 
-if login != "Marcelo" or senha != "1020":
-    print("Login incorreto.")
-else:
+if login == "Marcelo" and senha == "1020":
     print("Seja bem vindo!")
+else:
+    print("Login ou senha incorreto.")
     
