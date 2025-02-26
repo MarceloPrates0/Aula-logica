@@ -41,8 +41,8 @@ def calculo_fgts(fundo_garantia):
        
 salario= float(input("Insira seu salário bruto: R$"))
 imposto_inss= calculo_previdencia_social(salario)
-liquido_inss= salario - imposto_inss
-imposto_irrf= calculo_irrf(liquido_inss)
+# liquido_inss= salario - imposto_inss  
+imposto_irrf= calculo_irrf(salario)
 calcular_fgts= calculo_fgts(salario)
 liquido= salario - (imposto_inss + imposto_irrf + calcular_fgts)
 
