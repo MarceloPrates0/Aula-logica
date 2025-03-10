@@ -5,7 +5,7 @@ genero= input("""
 Masculino - M
 Feminino - F
 Selecione o gênero de sua escolha para saber seu peso ideal:
-""")  
+""").upper() # 
 
 match genero:
     case "M":
@@ -16,3 +16,5 @@ match genero:
         altura2= float(input("Insira sua altura: "))
         imc2= (62.1 * altura2) - 44.7
         print(f"Seu peso ideal é: {imc2:.2f}")
+    case _:
+        print("Opção inválida.")
