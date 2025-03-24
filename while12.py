@@ -40,11 +40,6 @@ while True:
             continua = input("Deseja pedir mais um prato? 'S' para sim, 'N' para não: ").upper()
     os.system("cls || clear")
 
-
-  
-
-    
-    
     
 print(f"O total de sua comanda ficou: R${comanda}")
 
