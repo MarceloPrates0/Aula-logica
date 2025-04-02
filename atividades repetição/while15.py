@@ -48,15 +48,11 @@ M - Masculino:
 
         case 2:
             os.system("cls || clear")
-            print(f"Sua idade: {idade}")
-            print(f"Seu sexo: {sexo}")
-            print(f"Seu salário: {salario}\n")
+            media = acumulador / contador
+            print(f"A média salarial desse grupo é: {media:.2f}")
+            print(f"A menor idade é {idade_menor} e a maior idade do grupo é {idade_maior}")
+            print(f"Possuem {mulheres_salario_mais5k} mulheres com o salário superior a R$5000")
         case 3:
             break
         case _:
             print("Opção inválida.")
-
-media = acumulador / contador
-print(f"A média salarial desse grupo é: {media:.2f}")
-print(f"A menor idade é {idade_menor} e a maior idade do grupo é {idade_maior}")
-print(f"Possuem {mulheres_salario_mais5k} mulheres com o salário superior a R$5000")
