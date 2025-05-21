@@ -1,6 +1,0 @@
-Livro inserido: aa | Ano de publicação: 11 | Nome do autor: bb | Biografia: cc
-Livro inserido: aa | Ano de publicação: 11 | Nome do autor: bb | Biografia: cc
-Livro inserido: aa | Ano de publicação: 11 | Nome do autor: bb | Biografia: cc
-Livro inserido: aa | Ano de publicação: 11 | Nome do autor: bb | Biografia: cc
-Livro inserido: aa | Ano de publicação: 22 | Nome do autor: bb | Biografia: cc
-Livro inserido: a | Ano de publicação: 1 | Nome do autor: b | Biografia: c

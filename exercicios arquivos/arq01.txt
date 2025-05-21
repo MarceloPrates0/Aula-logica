@@ -1,3 +1,0 @@
-& C:/Users/auditoria/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/auditoria/Desktop/exercicios/exercicio1.py
-marcelo
-marcelo
